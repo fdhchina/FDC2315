@@ -1,0 +1,4 @@
+---- vs1003_SetVolume Æ¥Åä (3 in 3 ÎÄ¼þ) ----
+Player.c (usr):	vs1003_SetVolume(0x0000);
+Vs1003.h (drivers):void vs1003_SetVolume(u16 wVol);
+VS1003x.c (drivers):void vs1003_SetVolume(u16 wVol)

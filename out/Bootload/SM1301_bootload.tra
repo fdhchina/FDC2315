@@ -1,0 +1,35 @@
+*** Creating Trace Output File '..\..\out\Bootload\SM1301_bootload.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\..\out\bootload\hal.o"'
+### List of Objects: adding '"..\..\out\bootload\main.o"'
+### List of Objects: adding '"..\..\out\bootload\rcc.o"'
+### List of Objects: adding '"..\..\out\bootload\ch375.o"'
+### List of Objects: adding '"..\src\U_HOST\CH375HFM.LIB"'
+### List of Objects: adding '"..\..\out\bootload\stmflash.o"'
+### List of Objects: adding '"..\..\out\bootload\lcm19264.o"'
+### List of Objects: adding '"..\..\out\bootload\usrkey.o"'
+### List of Objects: adding '"..\..\out\bootload\key.o"'
+### List of Objects: adding '"..\..\out\bootload\system_stm32f10x.o"'
+### List of Objects: adding '"..\..\out\bootload\core_cm3.o"'
+### List of Objects: adding '"..\..\out\bootload\misc.o"'
+### List of Objects: adding '"..\..\out\bootload\stm32f10x_flash.o"'
+### List of Objects: adding '"..\..\out\bootload\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\..\out\bootload\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\..\out\bootload\stm32f10x_spi.o"'
+### List of Objects: adding '"..\..\out\bootload\startup_stm32f10x_hd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\..\out\bootload\hal.o" "..\..\out\bootload\main.o" "..\..\out\bootload\rcc.o" "..\..\out\bootload\ch375.o" "F:\桌面\FDC215智能中心\FDC215 V1.00内置flash字库\iap\src\U_HOST\CH375HFM.LIB" "..\..\out\bootload\stmflash.o" "..\..\out\bootload\lcm19264.o" "..\..\out\bootload\usrkey.o" "..\..\out\bootload\key.o" "..\..\out\bootload\system_stm32f10x.o" "..\..\out\bootload\core_cm3.o" "..\..\out\bootload\misc.o" "..\..\out\bootload\stm32f10x_flash.o" "..\..\out\bootload\stm32f10x_gpio.o" "..\..\out\bootload\stm32f10x_rcc.o" "..\..\out\bootload\stm32f10x_spi.o" "..\..\out\bootload\startup_stm32f10x_hd.o" --strict --scatter "..\..\out\Bootload\SM1301_bootload.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\..\out\Bootload\lst\SM1301_bootload.map" -o ..\..\out\Bootload\SM1301_bootload.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\..\out\Bootload\SM1301_bootload.axf'
+### ADS-LD Command File: '..\..\out\Bootload\SM1301_bootload.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\..\out\Bootload\SM1301_bootload.lnp', Handle=0x00000878
+### Writing '.lnp' file
+### ADS-LD Command file '..\..\out\Bootload\SM1301_bootload.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

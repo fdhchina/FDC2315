@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{7dc8e1c2-8f1a-4756-bdfb-1a0237a56b46}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{f220c2a0-4c4b-4b21-9c85-3304058c215c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="项目说明">
+      <UniqueIdentifier>{3eeec2d8-5e3c-4973-b100-857282d3e63a}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+    <Filter Include="源文件\Usr">
+      <UniqueIdentifier>{fa22deb6-3bac-439d-97c6-9775f017979f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FwLib">
+      <UniqueIdentifier>{3c9d30ee-4a63-4aeb-9535-0389e09ea6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StartUp">
+      <UniqueIdentifier>{388c996f-2f69-4920-a9b3-b725de6df7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Driver">
+      <UniqueIdentifier>{7e9872dd-2571-457f-a538-605e9b9697d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\audioinfo">
+      <UniqueIdentifier>{2beb60a5-35f4-4753-bb84-4d90b695f48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Readme">
+      <UniqueIdentifier>{dddb91f4-2889-448b-b755-dec1416b4548}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stm32f10x_it.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usr\player.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usr\Task.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usr\arrayList.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\tuner.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usr\stringconst.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usr\menu.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usr\queue.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usr\remoteTask.c">
+      <Filter>源文件\Usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\system_stm32f10x.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\core_cm3.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\misc.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_flash.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_gpio.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_rcc.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_spi.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_exti.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_usart.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_adc.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_dma.c">
+      <Filter>源文件\FwLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\25f.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\AmpMeter.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\GPIO.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\hal.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\key.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\lcm19264.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\RCC.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\usrkey.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\Filesystem\cc936.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\Filesystem\diskio.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\Filesystem\ff.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\Filesystem\MSD\msd.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\VS1003x.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\DS3231.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\audio.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\i2c_ee.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\Filesystem\ch375.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\stmflash.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\Com.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drivers\zk.c">
+      <Filter>源文件\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\audioinfo\ID3v1.c">
+      <Filter>源文件\audioinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\audioinfo\ID3v2.c">
+      <Filter>源文件\audioinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\audioinfo\MPEGaudio.c">
+      <Filter>源文件\audioinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\audioinfo\WAVfile.c">
+      <Filter>源文件\audioinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\audioinfo\WMAfile.c">
+      <Filter>源文件\audioinfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Lib\STM32Lib\StartUp\startup_stm32f10x_hd.s">
+      <Filter>源文件\StartUp</Filter>
+    </None>
+    <None Include="..\src\Drivers\si47xx\SI47XX.C">
+      <Filter>源文件\Driver</Filter>
+    </None>
+    <None Include="..\src\Drivers\Filesystem\U_HOST\CH375HFM.LIB">
+      <Filter>源文件\Driver</Filter>
+    </None>
+    <None Include="..\..\readme\Readme.txt">
+      <Filter>源文件\Readme</Filter>
+    </None>
+    <None Include="Readme.txt">
+      <Filter>项目说明</Filter>
+    </None>
+  </ItemGroup>
+</Project>

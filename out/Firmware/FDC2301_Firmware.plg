@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\progress\FDC215智能中心\FDC215 V1.00内置flash字库\firmware\RVMDK\FDC2301_Firmware.uvproj
+Project File Date:  08/08/2015
+
+<h2>Output:</h2>
+Build target 'FDC2301_Firmware'
+compiling audio.c...
+linking...
+Program Size: Code=84404 RO-data=94364 RW-data=432 ZI-data=59280  
+FromELF: creating hex file...
+User command #1: fromelf.exe --bin -o "..\..\out\Firmware\..\FDC215.bin" "..\..\out\Firmware\FDC2301_Firmware.axf"
+"..\..\out\Firmware\FDC2301_Firmware.axf" - 0 Error(s), 0 Warning(s).
+Build target 'FDC2301_Firmware'
+linking...
+Program Size: Code=84404 RO-data=94364 RW-data=432 ZI-data=59280  
+FromELF: creating hex file...
+User command #1: fromelf.exe --bin -o "..\..\out\Firmware\..\FDC215.bin" "..\..\out\Firmware\FDC2301_Firmware.axf"
+"..\..\out\Firmware\FDC2301_Firmware.axf" - 0 Error(s), 0 Warning(s).

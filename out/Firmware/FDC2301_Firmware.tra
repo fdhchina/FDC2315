@@ -1,0 +1,68 @@
+*** Creating Trace Output File '..\..\out\Firmware\FDC2301_Firmware.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\..\out\firmware\main.o"'
+### List of Objects: adding '"..\..\out\firmware\stm32f10x_it.o"'
+### List of Objects: adding '"..\..\out\firmware\player.o"'
+### List of Objects: adding '"..\..\out\firmware\task.o"'
+### List of Objects: adding '"..\..\out\firmware\arraylist.o"'
+### List of Objects: adding '"..\..\out\firmware\tuner.o"'
+### List of Objects: adding '"..\..\out\firmware\stringconst.o"'
+### List of Objects: adding '"..\..\out\firmware\menu.o"'
+### List of Objects: adding '"..\..\out\firmware\queue.o"'
+### List of Objects: adding '"..\..\out\firmware\remotetask.o"'
+### List of Objects: adding '"..\..\out\firmware\system_stm32f10x.o"'
+### List of Objects: adding '"..\..\out\firmware\core_cm3.o"'
+### List of Objects: adding '"..\..\out\firmware\misc.o"'
+### List of Objects: adding '"..\..\out\firmware\stm32f10x_flash.o"'
+### List of Objects: adding '"..\..\out\firmware\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\..\out\firmware\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\..\out\firmware\stm32f10x_spi.o"'
+### List of Objects: adding '"..\..\out\firmware\stm32f10x_exti.o"'
+### List of Objects: adding '"..\..\out\firmware\stm32f10x_usart.o"'
+### List of Objects: adding '"..\..\out\firmware\stm32f10x_adc.o"'
+### List of Objects: adding '"..\..\out\firmware\stm32f10x_dma.o"'
+### List of Objects: adding '"..\..\out\firmware\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\..\out\firmware\25f.o"'
+### List of Objects: adding '"..\..\out\firmware\ampmeter.o"'
+### List of Objects: adding '"..\..\out\firmware\gpio.o"'
+### List of Objects: adding '"..\..\out\firmware\hal.o"'
+### List of Objects: adding '"..\..\out\firmware\key.o"'
+### List of Objects: adding '"..\..\out\firmware\lcm19264.o"'
+### List of Objects: adding '"..\..\out\firmware\rcc.o"'
+### List of Objects: adding '"..\..\out\firmware\usrkey.o"'
+### List of Objects: adding '"..\..\out\firmware\cc936.o"'
+### List of Objects: adding '"..\..\out\firmware\diskio.o"'
+### List of Objects: adding '"..\..\out\firmware\ff.o"'
+### List of Objects: adding '"..\..\out\firmware\msd.o"'
+### List of Objects: adding '"..\..\out\firmware\vs1003x.o"'
+### List of Objects: adding '"..\..\out\firmware\ds3231.o"'
+### List of Objects: adding '"..\..\out\firmware\si47xx.o"'
+### List of Objects: adding '"..\..\out\firmware\audio.o"'
+### List of Objects: adding '"..\..\out\firmware\i2c_ee.o"'
+### List of Objects: adding '"..\..\out\firmware\ch375.o"'
+### List of Objects: adding '"..\src\Drivers\Filesystem\U_HOST\CH375HFM.LIB"'
+### List of Objects: adding '"..\..\out\firmware\stmflash.o"'
+### List of Objects: adding '"..\..\out\firmware\com.o"'
+### List of Objects: adding '"..\..\out\firmware\zk.o"'
+### List of Objects: adding '"..\..\out\firmware\id3v1.o"'
+### List of Objects: adding '"..\..\out\firmware\id3v2.o"'
+### List of Objects: adding '"..\..\out\firmware\mpegaudio.o"'
+### List of Objects: adding '"..\..\out\firmware\wavfile.o"'
+### List of Objects: adding '"..\..\out\firmware\wmafile.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\..\out\firmware\main.o" "..\..\out\firmware\stm32f10x_it.o" "..\..\out\firmware\player.o" "..\..\out\firmware\task.o" "..\..\out\firmware\arraylist.o" "..\..\out\firmware\tuner.o" "..\..\out\firmware\stringconst.o" "..\..\out\firmware\menu.o" "..\..\out\firmware\queue.o" "..\..\out\firmware\remotetask.o" "..\..\out\firmware\system_stm32f10x.o" "..\..\out\firmware\core_cm3.o" "..\..\out\firmware\misc.o" "..\..\out\firmware\stm32f10x_flash.o" "..\..\out\firmware\stm32f10x_gpio.o" "..\..\out\firmware\stm32f10x_rcc.o" "..\..\out\firmware\stm32f10x_spi.o" "..\..\out\firmware\stm32f10x_exti.o" "..\..\out\firmware\stm32f10x_usart.o" "..\..\out\firmware\stm32f10x_adc.o" "..\..\out\firmware\stm32f10x_dma.o" "..\..\out\firmware\startup_stm32f10x_hd.o" "..\..\out\firmware\25f.o" "..\..\out\firmware\ampmeter.o" "..\..\out\firmware\gpio.o" "..\..\out\firmware\hal.o" "..\..\out\firmware\key.o" "..\..\out\firmware\lcm19264.o" "..\..\out\firmware\rcc.o" "..\..\out\firmware\usrkey.o" "..\..\out\firmware\cc936.o" "..\..\out\firmware\diskio.o" "..\..\out\firmware\ff.o" "..\..\out\firmware\msd.o" "..\..\out\firmware\vs1003x.o" "..\..\out\firmware\ds3231.o" "..\..\out\firmware\si47xx.o" "..\..\out\firmware\audio.o" "..\..\out\firmware\i2c_ee.o" "..\..\out\firmware\ch375.o" "C:\Users\Administrator\Desktop\FDC215 V1.00ÄÚÖÃflash×Ö¿â\firmware\src\Drivers\Filesystem\U_HOST\CH375HFM.LIB" "..\..\out\firmware\stmflash.o" "..\..\out\firmware\com.o" "..\..\out\firmware\zk.o" "..\..\out\firmware\id3v1.o" "..\..\out\firmware\id3v2.o" "..\..\out\firmware\mpegaudio.o" "..\..\out\firmware\wavfile.o" "..\..\out\firmware\wmafile.o" 
+--strict --scatter "..\..\out\Firmware\FDC2301_Firmware.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\..\out\Firmware\lst\FDC2301_Firmware.map" -o ..\..\out\Firmware\FDC2301_Firmware.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\..\out\Firmware\FDC2301_Firmware.axf'
+### ADS-LD Command File: '..\..\out\Firmware\FDC2301_Firmware.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\..\out\Firmware\FDC2301_Firmware.lnp', Handle=0x0000080C
+### Writing '.lnp' file
+### ADS-LD Command file '..\..\out\Firmware\FDC2301_Firmware.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="FDC2301_Firmware|Win32">
+      <Configuration>FDC2301_Firmware</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{630C639D-C434-4F17-AB2D-5D46AF7B2116}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FDC2301_Firmware|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FDC2301_Firmware|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FDC2301_Firmware|Win32'">
+    <NMakeOutput>FDC2301_Firmware.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>STM32F10X_HD</NMakePreprocessorDefinitions>
+    <IncludePath>..\..\Lib\STM32Lib;..\src\U_HOST;..\src;..\src\Drivers\Filesystem;..\src\Drivers;..\src\usr;..\..\Lib\USBLib\inc;..\src\Drivers\Filesystem\MSD;..\src\Drivers\Mass_Storage;..\src\audioinfo;</IncludePath>
+    <NMakeBuildCommandLine>"D:\Keil\UV4\Uv4.exe " -b ..\RVMDK\FDC2301_Firmware.uvproj -t "FDC2301_Firmware" -j0 -o Build.log</NMakeBuildCommandLine>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\Lib\STM32Lib\StartUp\startup_stm32f10x_hd.s" />
+    <None Include="..\src\Drivers\si47xx\SI47XX.C" />
+    <None Include="..\src\Drivers\Filesystem\U_HOST\CH375HFM.LIB" />
+    <None Include="..\..\readme\Readme.txt" />
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.c" />
+    <ClCompile Include="..\src\stm32f10x_it.c" />
+    <ClCompile Include="..\src\usr\player.c" />
+    <ClCompile Include="..\src\usr\Task.c" />
+    <ClCompile Include="..\src\usr\arrayList.c" />
+    <ClCompile Include="..\src\Drivers\tuner.c" />
+    <ClCompile Include="..\src\usr\stringconst.c" />
+    <ClCompile Include="..\src\usr\menu.c" />
+    <ClCompile Include="..\src\usr\queue.c" />
+    <ClCompile Include="..\src\usr\remoteTask.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\system_stm32f10x.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\core_cm3.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\misc.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_flash.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_spi.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_exti.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_adc.c" />
+    <ClCompile Include="..\..\Lib\STM32Lib\stm32f10x_dma.c" />
+    <ClCompile Include="..\src\Drivers\25f.c" />
+    <ClCompile Include="..\src\Drivers\AmpMeter.c" />
+    <ClCompile Include="..\src\Drivers\GPIO.c" />
+    <ClCompile Include="..\src\Drivers\hal.c" />
+    <ClCompile Include="..\src\Drivers\key.c" />
+    <ClCompile Include="..\src\Drivers\lcm19264.c" />
+    <ClCompile Include="..\src\Drivers\RCC.c" />
+    <ClCompile Include="..\src\Drivers\usrkey.c" />
+    <ClCompile Include="..\src\Drivers\Filesystem\cc936.c" />
+    <ClCompile Include="..\src\Drivers\Filesystem\diskio.c" />
+    <ClCompile Include="..\src\Drivers\Filesystem\ff.c" />
+    <ClCompile Include="..\src\Drivers\Filesystem\MSD\msd.c" />
+    <ClCompile Include="..\src\Drivers\VS1003x.c" />
+    <ClCompile Include="..\src\Drivers\DS3231.c" />
+    <ClCompile Include="..\src\Drivers\audio.c" />
+    <ClCompile Include="..\src\Drivers\i2c_ee.c" />
+    <ClCompile Include="..\src\Drivers\Filesystem\ch375.c" />
+    <ClCompile Include="..\src\Drivers\stmflash.c" />
+    <ClCompile Include="..\src\Drivers\Com.c" />
+    <ClCompile Include="..\src\Drivers\zk.c" />
+    <ClCompile Include="..\src\audioinfo\ID3v1.c" />
+    <ClCompile Include="..\src\audioinfo\ID3v2.c" />
+    <ClCompile Include="..\src\audioinfo\MPEGaudio.c" />
+    <ClCompile Include="..\src\audioinfo\WAVfile.c" />
+    <ClCompile Include="..\src\audioinfo\WMAfile.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
